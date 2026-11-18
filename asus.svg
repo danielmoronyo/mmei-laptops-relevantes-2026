@@ -1,0 +1,297 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 466 388" width="466" height="388">
+  <defs>
+    <linearGradient id="g-asus-chassis" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b3f47"/>
+      <stop offset="40%" stop-color="#2a2d33"/>
+      <stop offset="100%" stop-color="#1a1c20"/>
+    </linearGradient>
+    <linearGradient id="g-screen-tuf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="45%" stop-color="#9a3412"/>
+      <stop offset="80%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <linearGradient id="g-rail" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2a2e38"/>
+      <stop offset="15%" stop-color="#1c1f26"/>
+      <stop offset="85%" stop-color="#14161c"/>
+      <stop offset="100%" stop-color="#0d0e12"/>
+    </linearGradient>
+    <linearGradient id="g-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="g-usb-blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <filter id="f-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="466" height="388" rx="8" fill="#0e121a" stroke="#1e2433" stroke-width="1.5"/>
+  <line x1="10" y1="228" x2="456" y2="228" stroke="rgba(255,96,0,0.3)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- 1. VISTA SUPERIOR DEL ASUS TUF GAMING A15 -->
+  <!-- Marco de Pantalla 144Hz G-Sync -->
+  <g filter="url(#f-shadow)">
+    <rect x="70" y="6" width="326" height="92" rx="6" fill="url(#g-asus-chassis)" stroke="#475569" stroke-width="1"/>
+    <!-- Pantalla TUF encendida -->
+    <rect x="78" y="14" width="310" height="76" rx="3" fill="url(#g-screen-tuf)" stroke="#0f172a" stroke-width="1"/>
+    <!-- Logo TUF Mecha en el centro de pantalla -->
+    <path d="M 221 40 L 245 40 L 241 46 L 235 46 L 235 62 L 231 62 L 231 46 L 225 46 Z" fill="rgba(255,255,255,0.3)"/>
+    <text x="375" y="26" font-size="5" font-family="'Outfit', 'Inter', sans-serif" font-weight="bold" fill="#fde047" text-anchor="end">144 Hz G-SYNC</text>
+    <rect x="78" y="84" width="310" height="6" fill="rgba(10,14,24,0.7)"/>
+
+    <!-- Cámara HD con micrófonos IA -->
+    <circle cx="233" cy="10.5" r="2.2" fill="#0f172a" stroke="#64748b" stroke-width="0.8"/>
+    <circle cx="233" cy="10.5" r="1" fill="#38bdf8"/>
+    <circle cx="218" cy="10.5" r="0.8" fill="#000"/>
+    <circle cx="248" cy="10.5" r="0.8" fill="#000"/>
+    <text x="233" y="81" font-size="5.5" font-family="'Outfit', 'Inter', sans-serif" font-weight="bold" fill="#ff914d" text-anchor="middle">ASUS TUF GAMING</text>
+  </g>
+
+  <!-- Base Blindada MIL-STD-810H -->
+  <g filter="url(#f-shadow)">
+    <rect x="50" y="102" width="366" height="116" rx="6" fill="url(#g-asus-chassis)" stroke="#475569" stroke-width="1"/>
+    <rect x="80" y="98" width="306" height="5" rx="2" fill="#1e2430" stroke="#334155" stroke-width="1"/>
+
+    <!-- Hueco del teclado gaming -->
+    <rect x="68" y="110" width="330" height="56" rx="4" fill="#12161f" stroke="#334155" stroke-width="1"/>
+
+    <!-- Teclas (con WASD transparentes y destacadas) -->
+    <g fill="#1e2433" stroke="#334155" stroke-width="0.8">
+      <!-- Fila 1 -->
+      <rect x="74" y="115" width="13" height="9" rx="1"/>
+      <rect x="90" y="115" width="13" height="9" rx="1"/>
+      <rect x="106" y="115" width="13" height="9" rx="1"/>
+      <!-- Tecla 'W' transparente resaltada -->
+      <rect x="110" y="127" width="14" height="9" rx="1" fill="#f8fafc" stroke="#ff6000" stroke-width="1.2"/>
+      <text x="117" y="133.5" font-size="5.5" font-family="sans-serif" font-weight="bold" fill="#ff6000" text-anchor="middle">W</text>
+
+      <rect x="122" y="115" width="13" height="9" rx="1"/>
+      <rect x="138" y="115" width="13" height="9" rx="1"/>
+      <rect x="154" y="115" width="13" height="9" rx="1"/>
+      <rect x="170" y="115" width="13" height="9" rx="1"/>
+      <rect x="186" y="115" width="13" height="9" rx="1"/>
+      <rect x="202" y="115" width="13" height="9" rx="1"/>
+      <rect x="218" y="115" width="13" height="9" rx="1"/>
+      <rect x="234" y="115" width="13" height="9" rx="1"/>
+      <rect x="250" y="115" width="13" height="9" rx="1"/>
+      <rect x="266" y="115" width="13" height="9" rx="1"/>
+      <rect x="282" y="115" width="22" height="9" rx="1"/>
+
+      <!-- Fila 2 (A, S, D transparentes resaltadas) -->
+      <rect x="74" y="127" width="18" height="9" rx="1"/>
+      <rect x="94" y="127" width="13" height="9" rx="1"/>
+
+      <!-- Tecla 'A' -->
+      <rect x="102" y="139" width="13" height="9" rx="1" fill="#f8fafc" stroke="#ff6000" stroke-width="1.2"/>
+      <text x="108.5" y="145.5" font-size="5.5" font-family="sans-serif" font-weight="bold" fill="#ff6000" text-anchor="middle">A</text>
+      <!-- Tecla 'S' -->
+      <rect x="117" y="139" width="13" height="9" rx="1" fill="#f8fafc" stroke="#ff6000" stroke-width="1.2"/>
+      <text x="123.5" y="145.5" font-size="5.5" font-family="sans-serif" font-weight="bold" fill="#ff6000" text-anchor="middle">S</text>
+      <!-- Tecla 'D' -->
+      <rect x="132" y="139" width="13" height="9" rx="1" fill="#f8fafc" stroke="#ff6000" stroke-width="1.2"/>
+      <text x="138.5" y="145.5" font-size="5.5" font-family="sans-serif" font-weight="bold" fill="#ff6000" text-anchor="middle">D</text>
+
+      <rect x="127" y="127" width="13" height="9" rx="1"/>
+      <rect x="143" y="127" width="13" height="9" rx="1"/>
+      <rect x="159" y="127" width="13" height="9" rx="1"/>
+      <rect x="175" y="127" width="13" height="9" rx="1"/>
+      <rect x="191" y="127" width="13" height="9" rx="1"/>
+      <rect x="207" y="127" width="13" height="9" rx="1"/>
+      <rect x="223" y="127" width="13" height="9" rx="1"/>
+      <rect x="239" y="127" width="13" height="9" rx="1"/>
+      <rect x="255" y="127" width="13" height="9" rx="1"/>
+      <rect x="271" y="127" width="13" height="9" rx="1"/>
+      <rect x="287" y="127" width="17" height="9" rx="1"/>
+
+      <!-- Fila 3 y 4 -->
+      <rect x="74" y="139" width="24" height="9" rx="1"/>
+      <rect x="148" y="139" width="13" height="9" rx="1"/>
+      <rect x="164" y="139" width="13" height="9" rx="1"/>
+      <rect x="180" y="139" width="13" height="9" rx="1"/>
+      <rect x="196" y="139" width="13" height="9" rx="1"/>
+      <rect x="212" y="139" width="13" height="9" rx="1"/>
+      <rect x="228" y="139" width="13" height="9" rx="1"/>
+      <rect x="244" y="139" width="13" height="9" rx="1"/>
+      <rect x="260" y="139" width="13" height="9" rx="1"/>
+      <rect x="276" y="139" width="28" height="9" rx="1"/>
+
+      <rect x="74" y="151" width="18" height="9" rx="1"/>
+      <rect x="95" y="151" width="15" height="9" rx="1"/>
+      <rect x="113" y="151" width="15" height="9" rx="1"/>
+      <rect x="131" y="151" width="85" height="9" rx="1" fill="#242c3d"/>
+      <rect x="219" y="151" width="15" height="9" rx="1"/>
+      <rect x="237" y="151" width="15" height="9" rx="1"/>
+      <rect x="255" y="151" width="15" height="9" rx="1"/>
+      <rect x="273" y="151" width="31" height="9" rx="1"/>
+
+      <!-- Numpad TUF -->
+      <rect x="320" y="115" width="15" height="9" rx="1"/>
+      <rect x="338" y="115" width="15" height="9" rx="1"/>
+      <rect x="356" y="115" width="15" height="9" rx="1"/>
+      <rect x="374" y="115" width="18" height="9" rx="1"/>
+
+      <rect x="320" y="127" width="15" height="9" rx="1"/>
+      <rect x="338" y="127" width="15" height="9" rx="1"/>
+      <rect x="356" y="127" width="15" height="9" rx="1"/>
+      <rect x="374" y="127" width="18" height="21" rx="1"/>
+
+      <rect x="320" y="139" width="15" height="9" rx="1"/>
+      <rect x="338" y="139" width="15" height="9" rx="1"/>
+      <rect x="356" y="139" width="15" height="9" rx="1"/>
+
+      <rect x="320" y="151" width="33" height="9" rx="1"/>
+      <rect x="356" y="151" width="15" height="9" rx="1"/>
+      <rect x="374" y="151" width="18" height="9" rx="1"/>
+    </g>
+
+    <!-- Botón Encendido Poligonal TUF Gaming -->
+    <polygon points="380,108 396,108 398,118 378,118" fill="#ff6000" stroke="#fbbf24" stroke-width="0.8"/>
+    <circle cx="388" cy="113" r="1.2" fill="#fff"/>
+
+    <!-- Touchpad de Precisión con Logo TUF -->
+    <rect x="186" y="170" width="94" height="42" rx="4" fill="#181d28" stroke="#475569" stroke-width="1"/>
+    <text x="268" y="180" font-size="4" font-family="'Outfit', 'Inter', sans-serif" font-weight="bold" fill="#ff6000">TUF</text>
+
+    <!-- Pegatinas Ryzen 7, RTX 4060, PcCom -->
+    <rect x="74" y="184" width="14" height="11" rx="1" fill="#dc2626"/>
+    <text x="81" y="191" font-size="3.5" font-family="sans-serif" font-weight="bold" fill="#fff" text-anchor="middle">R7</text>
+    <rect x="91" y="184" width="14" height="11" rx="1" fill="#15803d"/>
+    <text x="98" y="191" font-size="3.5" font-family="sans-serif" font-weight="bold" fill="#fff" text-anchor="middle">RTX</text>
+    <rect x="108" y="184" width="22" height="11" rx="2" fill="#ea580c"/>
+    <text x="119" y="191" font-size="3.2" font-family="sans-serif" font-weight="bold" fill="#fff" text-anchor="middle">PcCom</text>
+  </g>
+
+  <!-- 2. PANELES LATERALES DE CONECTORES AMPLIADOS -->
+  <text x="14" y="238" font-size="7" font-family="'Outfit', 'Inter', sans-serif" font-weight="bold" fill="#ff8533">PERFIL LATERAL IZQUIERDO (7 PUERTOS GAMING)</text>
+  <rect x="10" y="242" width="446" height="60" rx="6" fill="url(#g-rail)" stroke="#334155" stroke-width="1"/>
+
+  <!-- DC-In Reforzado 240W (x=22, y=252, w=30, h=30) -->
+  <g>
+    <rect x="22" y="252" width="30" height="30" rx="4" fill="#0f172a" stroke="#64748b" stroke-width="1"/>
+    <circle cx="37" cy="267" r="11" fill="#1e293b" stroke="#cbd5e1" stroke-width="1.5"/>
+    <circle cx="37" cy="267" r="2.8" fill="url(#g-gold)" stroke="#d97706" stroke-width="1"/>
+    <text x="37" y="291" font-size="5" font-family="sans-serif" font-weight="bold" fill="#cbd5e1" text-anchor="middle">DC 240W</text>
+  </g>
+
+  <!-- LAN Gigabit Ethernet RJ-45 Realtek (x=76, y=253, w=42, h=28) -->
+  <g>
+    <rect x="76" y="253" width="42" height="28" rx="2" fill="#0a0e17" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="92" y="253" width="10" height="4" fill="#1e293b" stroke="#64748b"/>
+    <line x1="81" y1="258" x2="81" y2="264" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <line x1="85" y1="258" x2="85" y2="264" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <line x1="89" y1="258" x2="89" y2="264" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <line x1="93" y1="258" x2="93" y2="264" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <line x1="97" y1="258" x2="97" y2="264" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <line x1="101" y1="258" x2="101" y2="264" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <line x1="105" y1="258" x2="105" y2="264" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <line x1="109" y1="258" x2="109" y2="264" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <circle cx="80" cy="275" r="1" fill="#10b981"/>
+    <circle cx="114" cy="275" r="1" fill="#f59e0b"/>
+    <text x="97" y="289" font-size="5" font-family="sans-serif" font-weight="bold" fill="#cbd5e1" text-anchor="middle">RJ-45 LAN</text>
+  </g>
+
+  <!-- HDMI 2.1 FRL (x=142, y=255, w=38, h=24) -->
+  <g>
+    <polygon points="142,255 180,255 180,274 176,279 146,279 142,274" fill="#0f172a" stroke="#cbd5e1" stroke-width="1.2"/>
+    <rect x="146" y="259" width="30" height="15" rx="1" fill="#1e293b" stroke="#334155" stroke-width="0.8"/>
+    <rect x="149" y="262" width="2" height="4" fill="url(#g-gold)"/>
+    <rect x="154" y="262" width="2" height="4" fill="url(#g-gold)"/>
+    <rect x="159" y="262" width="2" height="4" fill="url(#g-gold)"/>
+    <rect x="164" y="262" width="2" height="4" fill="url(#g-gold)"/>
+    <rect x="169" y="262" width="2" height="4" fill="url(#g-gold)"/>
+    <text x="161" y="288" font-size="5" font-family="sans-serif" font-weight="bold" fill="#cbd5e1" text-anchor="middle">HDMI 2.1 FRL</text>
+  </g>
+
+  <!-- USB-C 3.2 Gen 2 con G-Sync / DP (x=204, y=258, w=34, h=18) -->
+  <g>
+    <rect x="204" y="258" width="34" height="18" rx="5" fill="#0a0e17" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="208" y="265.5" width="26" height="3" rx="1" fill="#1e293b" stroke="#475569" stroke-width="0.8"/>
+    <rect x="211" y="266" width="3" height="2" fill="url(#g-gold)"/>
+    <rect x="216" y="266" width="3" height="2" fill="url(#g-gold)"/>
+    <rect x="221" y="266" width="3" height="2" fill="url(#g-gold)"/>
+    <rect x="226" y="266" width="3" height="2" fill="url(#g-gold)"/>
+    <text x="221" y="285" font-size="5" font-family="sans-serif" font-weight="bold" fill="#38bdf8" text-anchor="middle">Type-C DP</text>
+  </g>
+
+  <!-- USB4 40Gbps Type-C (x=262, y=258, w=34, h=18) -->
+  <g>
+    <rect x="262" y="258" width="34" height="18" rx="5" fill="#0a0e17" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="266" y="265.5" width="26" height="3" rx="1" fill="#1e293b" stroke="#475569" stroke-width="0.8"/>
+    <rect x="269" y="266" width="3" height="2" fill="url(#g-gold)"/>
+    <rect x="274" y="266" width="3" height="2" fill="url(#g-gold)"/>
+    <rect x="279" y="266" width="3" height="2" fill="url(#g-gold)"/>
+    <rect x="284" y="266" width="3" height="2" fill="url(#g-gold)"/>
+    <text x="279" y="285" font-size="5" font-family="sans-serif" font-weight="bold" fill="#ff914d" text-anchor="middle">USB4 40G</text>
+  </g>
+
+  <!-- USB-A 3.2 Gen 1 Izquierdo (x=320, y=256, w=40, h=22) -->
+  <g>
+    <rect x="320" y="256" width="40" height="22" rx="2" fill="#0f172a" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="323" y="258" width="34" height="10" rx="1" fill="url(#g-usb-blue)" stroke="#475569" stroke-width="0.8"/>
+    <rect x="327" y="259" width="2" height="3" fill="url(#g-gold)"/>
+    <rect x="334" y="259" width="2" height="3" fill="url(#g-gold)"/>
+    <rect x="341" y="259" width="2" height="3" fill="url(#g-gold)"/>
+    <rect x="348" y="259" width="2" height="3" fill="url(#g-gold)"/>
+    <text x="340" y="287" font-size="5" font-family="sans-serif" font-weight="bold" fill="#38bdf8" text-anchor="middle">USB-A 3.2</text>
+  </g>
+
+  <!-- Combo Jack 3.5 mm Hi-Res (x=384, y=254, w=26, h=26) -->
+  <g>
+    <rect x="384" y="254" width="26" height="26" rx="4" fill="#0f172a" stroke="#64748b" stroke-width="1"/>
+    <circle cx="397" cy="267" r="10" fill="#1e293b" stroke="url(#g-gold)" stroke-width="1.2"/>
+    <circle cx="397" cy="267" r="3.5" fill="#000000"/>
+    <text x="397" y="289" font-size="5" font-family="sans-serif" font-weight="bold" fill="#cbd5e1" text-anchor="middle">Hi-Res 3.5</text>
+  </g>
+
+  <!-- PERFIL LATERAL DERECHO -->
+  <text x="14" y="314" font-size="7" font-family="'Outfit', 'Inter', sans-serif" font-weight="bold" fill="#ff8533">PERFIL LATERAL DERECHO (PUERTOS)</text>
+  <rect x="10" y="318" width="446" height="60" rx="6" fill="url(#g-rail)" stroke="#334155" stroke-width="1"/>
+
+  <!-- Kensington Lock (x=30, y=333, w=26, h=18) -->
+  <g>
+    <rect x="30" y="333" width="26" height="18" rx="3" fill="#090d14" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="35" y="336" width="16" height="12" rx="2" fill="#000000" stroke="#475569" stroke-width="1"/>
+    <circle cx="43" cy="342" r="2" fill="#ff6000"/>
+    <text x="43" y="361" font-size="5" font-family="sans-serif" font-weight="bold" fill="#cbd5e1" text-anchor="middle">K-Lock</text>
+  </g>
+
+  <!-- USB-A 3.2 Gen 1 Derecho (x=96, y=331, w=40, h=22) -->
+  <g>
+    <rect x="96" y="331" width="40" height="22" rx="2" fill="#0f172a" stroke="#94a3b8" stroke-width="1"/>
+    <rect x="99" y="333" width="34" height="10" rx="1" fill="url(#g-usb-blue)" stroke="#475569" stroke-width="0.8"/>
+    <rect x="103" y="334" width="2" height="3" fill="url(#g-gold)"/>
+    <rect x="110" y="334" width="2" height="3" fill="url(#g-gold)"/>
+    <rect x="117" y="334" width="2" height="3" fill="url(#g-gold)"/>
+    <rect x="124" y="334" width="2" height="3" fill="url(#g-gold)"/>
+    <text x="116" y="362" font-size="5" font-family="sans-serif" font-weight="bold" fill="#38bdf8" text-anchor="middle">USB-A 3.2</text>
+  </g>
+
+  <!-- Rejilla Panal de Abeja Honeycomb TUF Gaming (x=164, y=324, w=276, h=36) -->
+  <g>
+    <rect x="164" y="324" width="276" height="36" rx="3" fill="#0a0d14" stroke="#334155" stroke-width="1"/>
+    <!-- Patrón de panal hexagonal -->
+    <polygon points="174,332 181,332 185,338 181,344 174,344 170,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="190,332 197,332 201,338 197,344 190,344 186,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="206,332 213,332 217,338 213,344 206,344 202,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="222,332 229,332 233,338 229,344 222,344 218,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="238,332 245,332 249,338 245,344 238,344 234,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="254,332 261,332 265,338 261,344 254,344 250,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="270,332 277,332 281,338 277,344 270,344 266,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="286,332 293,332 297,338 293,344 286,344 282,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="302,332 309,332 313,338 309,344 302,344 298,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="318,332 325,332 329,338 325,344 318,344 314,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="334,332 341,332 345,338 341,344 334,344 330,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="350,332 357,332 361,338 357,344 350,344 346,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="366,332 373,332 377,338 373,344 366,344 362,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="382,332 389,332 393,338 389,344 382,344 378,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="398,332 405,332 409,338 405,344 398,344 394,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <polygon points="414,332 421,332 425,338 421,344 414,344 410,338" fill="#1e2433" stroke="#ff6000" stroke-width="0.8"/>
+    <text x="302" y="369" font-size="5.5" font-family="sans-serif" font-weight="bold" fill="#f97316" text-anchor="middle">Disipación Honeycomb</text>
+  </g>
+</svg>
